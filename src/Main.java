@@ -116,14 +116,14 @@ public class Main {
         var oneWorkerTime = 8;
 
         var howManyWorker = allTime / oneWorkerTime;
-        System.out.println("Всего работников в компании " + howManyWorker); // конец первой части задачи
+        System.out.println("Всего работников в компании " + howManyWorker + " (выполнение первого условия задачи)"); // конец первой части задачи
 
         var allWorkerNow = howManyWorker + 94;
 
         var howManyTime = oneWorkerTime * allWorkerNow;
 
         System.out.println("Если в компании работает " +  allWorkerNow + " человека" +
-                " ,то всего " + howManyTime + " часа работы может быть поделено между сотрудниками" ); //вторая часть задачи заканчивает тут
+                " ,то всего " + howManyTime + " часа работы может быть поделено между сотрудниками" ); // конец второй части задачи
 
 
     }
