@@ -123,7 +123,7 @@ public class Main {
         var howManyTime = oneWorkerTime * allWorkerNow;
 
         System.out.println("Если в компании работает " +  allWorkerNow + " человека" +
-                " ,то всего " + howManyTime + " часа работы может быть поделено между сотрудниками" );//конец второй части задачи
+                " ,то всего " + howManyTime + " часа работы может быть поделено между сотрудниками." );//конец второй части задачи
 
 
     }
